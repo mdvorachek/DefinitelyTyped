@@ -5,6 +5,6 @@
 
 
 declare module 'react-redux-form' {
-    const ReactReduxForm: any;
-    export = ReactReduxForm;
+    const Field: any;
+    export = Field;
 }
