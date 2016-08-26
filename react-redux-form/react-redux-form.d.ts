@@ -5,6 +5,44 @@
 
 
 declare module 'react-redux-form' {
+    const actions: any;
+    const actionTypes: any;
+    const controlPropsMap: any;
+    const createFieldClass: any;
+    const formReducer: any;
+    const createFormReducer: any;
+    const modelReducer: any;
+    const createModelReducer: any;
+    const modelFormReducer: any;
+    const modelForm: any;
     const Field: any;
-    export = Field;
+    const Control: any;
+    const Form: any;
+    const Errors: any;
+    const getField: any;
+    const initialFieldState: any;
+    const modeled: any;
+    const track: any;
+    const utils: any;
+    
+    export {
+    actions,
+    actionTypes,
+    controlPropsMap as controls,
+    createFieldClass,
+    formReducer,
+    createFormReducer,
+    modelReducer,
+    createModelReducer,
+    modelFormReducer,
+    modelForm,
+    Field,
+    Control,
+    Form,
+    Errors,
+    getField,
+    initialFieldState,
+    modeled,
+    track,
+    utils };
 }
