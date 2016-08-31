@@ -6,5 +6,5 @@
 
 declare module 'react-radio' {
     const RadioGroup: any;
-    export = RadioGroup;
+    export default RadioGroup;
 }
