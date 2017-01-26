@@ -5,6 +5,6 @@
 
 
 declare module 'immutable-recursive' {
-    const deepReduceOutward: any;
-    export { deepReduceOutward };
+    const deepReduceOutwards: any;
+    export { deepReduceOutwards };
 }
