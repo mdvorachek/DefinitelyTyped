@@ -3,5 +3,6 @@
 // Definitions by: Mat Dvorachek <https://github.com/mdvorachek>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-
-export declare var AgGridReact: any;
+declare module 'ag-grid-react' {
+	export const AgGridReact: any;
+}
