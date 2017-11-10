@@ -25,6 +25,7 @@ declare module 'react-redux-form' {
     const track: any;
     const utils: any;
     const createForms: any;
+    const combineForms: any;
     
     export {
         actions,
@@ -46,6 +47,7 @@ declare module 'react-redux-form' {
         modeled,
         track,
         utils,
-        createForms
+        createForms,
+        combineForms
     };
 }
